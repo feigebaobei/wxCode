@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/three/three",
+    "pages/fore/fore",
+    "pages/calc/calc",
+    "pages/page0/page0",
+    "pages/page1/page1",
+    "pages/page2/page2"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#99f", 
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "weCode by stone",
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/page0/page0",
+        "text": "第一页",
+        "color": "#9999ff",
+        "selectedColor": "#999000",
+        "backgroundColor": "#999999",
+        "borderStyle": "black",
+        "list": [
+          {
+            "pagePath": "pages/page1/page1",
+            "text":"第二页",
+            "iconPath": "image/mountainwater.jpg",
+            "selectedIconPath": "image/40cb0060rf.jpg"
+          },
+          {
+            "pagePath": "pages/page2/page2",
+            "text": "第三页",
+            "iconPath": "image/mountainwater.jpg",
+            "selectedIconPath": "image/40cb0060rf.jpg"
+          }
+        ]
+      },
+      {
+        "pagePath": "pages/page1/page1",
+        "text": "第二页"
+      },
+      {
+        "pagePath": "pages/page2/page2",
+        "text": "第三页"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000
+  },
+  "debug": false
+}

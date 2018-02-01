@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class="container">
+  <view>这是体验版</view>
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <!-- map -->
+  <view>
+    <map bindmarkertap="markertap" longitude="121.438834" latitude="31.243567"></map>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view>
+    <text class="user-motto">{{testms}}</text>
+  </view>
+  <button bindtap='clickme'>click me</button>
+  <button bindtap='showToast'>showToast</button>
+  <view>
+    <!-- 视图容器 -->
+    <view class='section_title'>flex-direction: row</view>
+    <view class='flex-wrp'>
+      <view class="flex-item bc_green">1</view>
+      <view class="flex-item bc_red">2</view>
+      <view class="flex-item bc_blue">3</view>
+    </view>
+  </view>
+  <!-- navigator -->
+  <view>
+    <text>navigator</text>
+    <navigator url='../logs/logs'>new page</navigator>
+    <navigator url='../three/three'>go to three</navigator>
+    <navigator url='../calc/calc'>calculator</navigator>
+  </view>
+  <button bindtap='scan'>scan</button>
+  <text style="width: 750rpx; height: 50rpx; background: #333333"></text>
+</view>
