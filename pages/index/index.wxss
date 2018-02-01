@@ -1,5 +1,5 @@
 /* import style */
- @import "commen.wxss";
+ /* @import "commen.wxss"; */
 /**index.wxss**/
 .userinfo {
   display: flex;
