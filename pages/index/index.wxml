@@ -12,6 +12,11 @@
   <view>
     <map bindmarkertap="markertap" longitude="121.438834" latitude="31.243567"></map>
   </view>
+  <view>
+    <navigator url='../four/four'>go to four</navigator>
+    <navigator url='../six/six'>go to six</navigator>
+    <navigator url='../share/share'>go to share</navigator>
+  </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>

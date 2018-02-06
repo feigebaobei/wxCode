@@ -1,9 +1,20 @@
 {
   "pages": [
+    "pages/score/score",
+    "pages/secondScore/secondScore",
+    "pages/share/share",
     "pages/index/index",
+    "pages/ten/ten",
+    "pages/nine/nine",
+    "pages/eight/eight",
+    "pages/seven/seven",
+    "pages/six/six",
+    "pages/five/five",
+    "pages/four/four",
+    
     "pages/logs/logs",
     "pages/three/three",
-    "pages/fore/fore",
+    
     "pages/calc/calc",
     "pages/page0/page0",
     "pages/page1/page1",
@@ -16,7 +27,7 @@
     "backgroundColor": "#000000",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": true,
-    "onReachBottomDistance": 50
+    "onReachBottomDistance": 250
   },
   "tabBar": {
     "list": [

@@ -1,7 +1,8 @@
 //app.js
 App({
   onLaunch: function () {
-    console.log('onLaunch')
+    // console.log(this)
+    // console.log('onLaunch')
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -38,7 +39,7 @@ App({
     userInfo: null
   },
   onShow: function () {
-    console.log('onShow')
+    // console.log('onShow')
   },
   onHide: function () {
     console.log('程序隐藏到后台')

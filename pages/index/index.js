@@ -75,5 +75,27 @@ Page({
         console.log(res)
       }
     })
-  }
+  },
+  // 
+  onReady : function () {},
+  onShow: function () {
+    console.log('show')
+  },
+  onHide: function () {},
+  onUnload: function () {
+    console.log('unload')
+  },
+  onPullDownRefresh: function () {
+    console.log('pullDownRefresh')
+  },
+  onShareAppMessage: function () {
+    // console.log('shareAppMessage')
+    return {
+      title: '体验版firstStream',
+      path: '/pages/index/index'
+    }
+  },
+  onTabltemTap: function () {
+    console.log('click tab')
+  },
 })
