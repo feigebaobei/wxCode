@@ -12,3 +12,12 @@
   <text>参加评测的链接</text>
   <navigator url="../link/link">go to there</navigator>
 </block>
+<block>
+  <button open-type='share'>
+    <image class='anm' src='../../image/girl.jpg'  ></image>
+  </button>
+  <button bindtap='ctrlShare'>control share</button>
+  <block wx:if="{{shareAfter}}">
+    <text>分享后可见。</text>
+  </block>
+</block>

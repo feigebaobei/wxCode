@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    shareAble: true
+    shareAble: true,
+    shareAfter: false
   },
 
   /**
@@ -103,5 +104,25 @@ Page({
         console.log(that)
       }
     }
+  },
+
+  ctrlShare: function () {
+    wx.onShareAppMessge({
+    //   return {
+    //     title: 'ctrlShare title',
+    //     path: 'pages/share/share',
+    //     imageUrl: '../../image/food.jpg',
+    //     sucess: function () {
+    //       this.setData({
+    //         shareAfter: true
+    //       })
+    //     },
+    //     complete: function () {
+    //       this.setData({
+    //         shareAfter: true
+    //       })
+    //     }
+    //   }
+    })
   }
 })

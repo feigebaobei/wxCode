@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/score/score",
-    "pages/secondScore/secondScore",
-    "pages/share/share",
+
+
+    
+    "pages/share2/share2",
     "pages/index/index",
     "pages/ten/ten",
     "pages/nine/nine",
@@ -11,7 +12,9 @@
     "pages/six/six",
     "pages/five/five",
     "pages/four/four",
-    
+    "pages/share/share",
+    "pages/score/score",
+    "pages/secondScore/secondScore",
     "pages/logs/logs",
     "pages/three/three",
     
