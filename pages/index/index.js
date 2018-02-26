@@ -8,7 +8,22 @@ Page({
     testms: 'from 火星',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    item: {
+      index: 0,
+      msg: 'message',
+      time: '90/10/05'
+    },
+    item1: {
+      index: 1,
+      msg: 'message',
+      time: '90/10/05'
+    },
+    item2: {
+      index: 2,
+      msg: 'message',
+      time: '90/10/05'
+    }
   },
   //事件处理函数
   bindViewTap: function() {
@@ -80,6 +95,7 @@ Page({
   onReady : function () {},
   onShow: function () {
     console.log('show')
+    console.log(getCurrentPages())
   },
   onHide: function () {},
   onUnload: function () {

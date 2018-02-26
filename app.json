@@ -1,10 +1,14 @@
 {
   "pages": [
 
-
-    
-    "pages/share2/share2",
+    "pages/eleven/eleven",
     "pages/index/index",
+    "pages/share2/share2",
+    "pages/tempdefine/tempdefine",
+
+
+
+
     "pages/ten/ten",
     "pages/nine/nine",
     "pages/eight/eight",
@@ -33,36 +37,34 @@
     "onReachBottomDistance": 250
   },
   "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/page0/page0",
-        "text": "第一页",
-        "color": "#9999ff",
-        "selectedColor": "#999000",
-        "backgroundColor": "#999999",
-        "borderStyle": "black",
-        "list": [
-          {
-            "pagePath": "pages/page1/page1",
-            "text":"第二页",
-            "iconPath": "image/mountainwater.jpg",
-            "selectedIconPath": "image/40cb0060rf.jpg"
-          },
-          {
-            "pagePath": "pages/page2/page2",
-            "text": "第三页",
-            "iconPath": "image/mountainwater.jpg",
-            "selectedIconPath": "image/40cb0060rf.jpg"
-          }
-        ]
+        "pagePath": "pages/index/index",
+        "iconPath": "image/pic0.jpg",
+        "selectedIconPath": "image/pic0.jpg",
+        "text": "no0"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/pic0.jpg",
+        "selectedIconPath": "image/pic0.jpg",
+        "text": "no1"
       },
       {
         "pagePath": "pages/page1/page1",
-        "text": "第二页"
+        "iconPath": "image/pic0.jpg",
+        "selectedIconPath": "image/pic0.jpg",
+        "text": "page1"
       },
       {
         "pagePath": "pages/page2/page2",
-        "text": "第三页"
+        "iconPath": "image/pic0.jpg",
+        "selectedIconPath": "image/pic0.jpg",
+        "text": "page2"
       }
     ]
   },

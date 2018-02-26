@@ -1,15 +1,11 @@
-// page1.js
+// pages/tempdefine/tempdefine.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    item: {
-      index: 3,
-      msg: 'page1 message',
-      time: '90/10/05 form page1'
-    }
+  
   },
 
   /**
@@ -66,5 +62,42 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+
+
+
+
+})
+
+
+
+//
+// Behavior()
+// var Behavior = require('../../utils/Behavior.js')
+// var Behavior = require('./Behavior')
+var a = 1;
+
+//component
+Component({
+  options: {
+    multipleSlots: true
+  },
+  properties: {
+    // 这里定义了innerText属性，属性值可以在组件使用时指定
+    innerText: {
+      type: String,
+      value: 'default value',
+    }
+  },
+  data: {
+    // 这里是一些组件内部数据
+    someData: {},
+    name: 'lixd'
+  },
+  methods: {
+    // 这里是一个自定义方法
+    customMethod: function () { }
   }
 })
+

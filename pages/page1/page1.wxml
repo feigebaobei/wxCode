@@ -1,2 +1,4 @@
 <!--page1.wxml-->
 <text>page1.wxml</text>
+<import src="../index/index.wxml"></import>
+<template is="msgItem" data="{{...item}}"></template>

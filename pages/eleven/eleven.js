@@ -1,15 +1,11 @@
-// page1.js
+// pages/eleven/eleven.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    item: {
-      index: 3,
-      msg: 'page1 message',
-      time: '90/10/05 form page1'
-    }
+  
   },
 
   /**

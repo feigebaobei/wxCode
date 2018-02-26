@@ -56,5 +56,14 @@
   </view>
   <button bindtap='scan'>scan</button>
   <text style="width: 750rpx; height: 50rpx; background: #333333"></text>
+  <template name="msgItem">
+    <view>
+      <text>{{index}}: {{msg}}</text>
+      <text>Time: {{time}}</text>
+    </view>
+  </template>
+  <template is="msgItem" data="{{...item}}"></template>
+  <template is="msgItem" data="{{...item1}}"></template>
+  <template is="msgItem" data="{{...item2}}"></template>
   <button open-type='share'>share this</button>
 </view>
