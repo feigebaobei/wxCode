@@ -67,7 +67,3 @@
   <template is="msgItem" data="{{...item2}}"></template>
   <button open-type='share'>share this</button>
 </view>
-
-<view>
-  <web-view src="https://mp.weixin.com"></web-view>
-</view>
