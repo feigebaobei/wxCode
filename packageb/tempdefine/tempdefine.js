@@ -75,7 +75,7 @@ Page({
 //
 // Behavior()
 // var Behavior = require('../../utils/Behavior.js')
-// var Behavior = require('./Behavior')
+var Behavior = require('./Behavior')
 var a = 1;
 
 //component

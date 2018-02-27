@@ -2,3 +2,9 @@
 <text>page1.wxml</text>
 <import src="../index/index.wxml"></import>
 <template is="msgItem" data="{{...item}}"></template>
+
+<view>
+  <navigator url='../../packagea/five/five'>go to five</navigator>
+  <navigator url='../../packagea/four/four'>go to four</navigator>
+  <navigator url='../../packagea/three/three'>to to three</navigator>
+</view>

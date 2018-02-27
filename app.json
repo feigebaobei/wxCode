@@ -1,31 +1,10 @@
 {
   "pages": [
-
-    "pages/eleven/eleven",
     "pages/index/index",
-    "pages/share2/share2",
-    "pages/tempdefine/tempdefine",
-
-
-
-
-    "pages/ten/ten",
-    "pages/nine/nine",
-    "pages/eight/eight",
-    "pages/seven/seven",
-    "pages/six/six",
-    "pages/five/five",
-    "pages/four/four",
-    "pages/share/share",
-    "pages/score/score",
-    "pages/secondScore/secondScore",
     "pages/logs/logs",
-    "pages/three/three",
-    
-    "pages/calc/calc",
-    "pages/page0/page0",
     "pages/page1/page1",
-    "pages/page2/page2"
+    "pages/page2/page2",
+    "pages/page3/page3"
   ],
   "window": {
     "navigationBarBackgroundColor": "#99f", 
@@ -46,25 +25,32 @@
         "pagePath": "pages/index/index",
         "iconPath": "image/pic0.jpg",
         "selectedIconPath": "image/pic0.jpg",
-        "text": "no0"
+        "text": "index"
       },
       {
         "pagePath": "pages/logs/logs",
         "iconPath": "image/pic0.jpg",
         "selectedIconPath": "image/pic0.jpg",
-        "text": "no1"
+        "text": "log"
       },
       {
         "pagePath": "pages/page1/page1",
         "iconPath": "image/pic0.jpg",
         "selectedIconPath": "image/pic0.jpg",
-        "text": "page1"
+        "text": "packagea"
       },
       {
         "pagePath": "pages/page2/page2",
         "iconPath": "image/pic0.jpg",
         "selectedIconPath": "image/pic0.jpg",
-        "text": "page2"
+        "text": "packageb"
+      },
+      
+      {
+        "pagePath": "pages/page3/page3",
+        "iconPath": "image/pic0.jpg",
+        "selectedIconPath": "image/pic0.jpg",
+        "text": "packagec"
       }
     ]
   },
@@ -74,5 +60,37 @@
     "connectSocket": 10000,
     "uploadFile": 10000
   },
-  "debug": false
+  "debug": false,
+  "subPackages": [
+    {
+      "root": "packagea",
+      "pages": [
+        "five/five",
+        "four/four",
+        "three/three"
+      ]
+    },
+    {
+      "root": "packageb",
+      "pages": [
+        "eleven/eleven",
+        "ten/ten",
+        "nine/nine",
+        "eight/eight",
+        "seven/seven",
+        "six/six"
+      ]
+    },
+    {
+      "root": "packagec",
+      "pages": [
+        "share2/share2",
+        "share/share",
+        "score/score",
+        "secondScore/secondScore",
+        "calc/calc",
+        "page0/page0"
+      ]
+    }
+  ]
 }
