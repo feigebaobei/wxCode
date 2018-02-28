@@ -67,7 +67,12 @@
       "pages": [
         "five/five",
         "four/four",
-        "three/three"
+        "three/three",
+        "picture/picture",
+        "record/record",
+        "video/video",
+        "camera/camera",
+        "liveplayer/liveplayer"
       ]
     },
     {

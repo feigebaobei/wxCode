@@ -13,22 +13,22 @@
     <map bindmarkertap="markertap" longitude="121.438834" latitude="31.243567"></map>
   </view>
   <view>
-    <navigator url='../calc/calc'>go to calc</navigator>
-    <navigator url='../eight/eight'>go to eight</navigator>
-    <navigator url='../five/five'>go to five</navigator>
-    <navigator url='../four/four'>go to four</navigator>
-    <navigator url='../logs/logs'>go to logs</navigator>
-    <navigator url='../nine/nine'>go to nine</navigator>
-    <navigator url='../page0/page0'>go to page0</navigator>
-    <navigator url='../page1/page1'>go to page1</navigator>
-    <navigator url='../page2/page2'>go to page2</navigator>
-    <navigator url='../score/score'>go to score</navigator>
-    <navigator url='../secondScore/secondScore'>go to secondScore</navigator>
-    <navigator url='../seven/seven'>go to seven</navigator>
-    <navigator url='../share/share'>go to share</navigator>
-    <navigator url='../six/six'>go to six</navigator>
-    <navigator url='../ten/ten'>go to ten</navigator>
-    <navigator url='../three/three'>go to three</navigator>
+    <navigator class='navitem' url='../calc/calc'>go to calc</navigator>
+    <navigator class='navitem' url='../eight/eight'>go to eight</navigator>
+    <navigator class='navitem' url='../five/five'>go to five</navigator>
+    <navigator class='navitem' url='../four/four'>go to four</navigator>
+    <navigator class='navitem' url='../logs/logs'>go to logs</navigator>
+    <navigator class='navitem' url='../nine/nine'>go to nine</navigator>
+    <navigator class='navitem' url='../page0/page0'>go to page0</navigator>
+    <navigator class='navitem' url='../page1/page1'>go to page1</navigator>
+    <navigator class='navitem' url='../page2/page2'>go to page2</navigator>
+    <navigator class='navitem' url='../score/score'>go to score</navigator>
+    <navigator class='navitem' url='../secondScore/secondScore'>go to secondScore</navigator>
+    <navigator class='navitem' url='../seven/seven'>go to seven</navigator>
+    <navigator class='navitem' url='../share/share'>go to share</navigator>
+    <navigator class='navitem' url='../six/six'>go to six</navigator>
+    <navigator class='navitem' url='../ten/ten'>go to ten</navigator>
+    <navigator class='navitem' url='../three/three'>go to three</navigator>
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
@@ -50,9 +50,9 @@
   <!-- navigator -->
   <view>
     <text>navigator</text>
-    <navigator url='../logs/logs'>new page</navigator>
-    <navigator url='../three/three'>go to three</navigator>
-    <navigator url='../calc/calc'>calculator</navigator>
+    <navigator class='navitem' url='../logs/logs'>new page</navigator>
+    <navigator class='navitem' url='../three/three'>go to three</navigator>
+    <navigator class='navitem' url='../calc/calc'>calculator</navigator>
   </view>
   <button bindtap='scan'>scan</button>
   <text style="width: 750rpx; height: 50rpx; background: #333333"></text>
@@ -67,3 +67,6 @@
   <template is="msgItem" data="{{...item2}}"></template>
   <button open-type='share'>share this</button>
 </view>
+<button bindtap='navAFive'>go to package/five</button>
+<button bindtap="chooseImage">chooseImage</button>
+<text>{{imagesPath}}</text>

@@ -9,3 +9,7 @@
   box-sizing: border-box;
   /* color:aqua; */
 } 
+.navitem {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

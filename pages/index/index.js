@@ -23,7 +23,8 @@ Page({
       index: 2,
       msg: 'message',
       time: '90/10/05'
-    }
+    },
+    imagesPath: ''
   },
   //事件处理函数
   bindViewTap: function() {
@@ -58,6 +59,29 @@ Page({
         }
       })
     }
+
+    // test request
+    // wx.request({
+    //   url: 'https://wx.qq.com',
+    //   data: {
+    //     x: '',
+    //     y: ''
+    //   },
+    //   header: {
+    //     'content-type': 'application/json'
+    //   },
+    //   success: function (res) {
+    //     console.log('success')
+    //   },
+    //   fail: function () {
+    //     console.log('fail')
+    //   },
+    //   complete: function () {
+    //     console.log('complete')
+    //   }
+    // })
+    
+    // test request end
   },
   getUserInfo: function(e) {
     console.log(e)
@@ -114,4 +138,30 @@ Page({
   onTabltemTap: function () {
     console.log('click tab')
   },
+  // go to packagea/five
+  navAFive: function () {
+    wx.navigateTo({
+      url: '../../packagea/five/five',
+    })
+  },
+  // chooseImage
+  chooseImage: function () {
+    // var path
+    var that = this
+    wx.chooseImage({
+      count: 3,
+      success: function (res) {
+        console.log('suc')
+        that.setData({
+          imagesPath: res.tempFilePaths
+        })
+      },
+      fail: function () {
+        console.log('fail')
+      },
+      complete: function () {
+        console.log('choose img complete')
+      }
+    })
+  }
 })
